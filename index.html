@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+//----------3-------------------------------------------------
+const custmerOne = {
+       cookOne : app.restaurantStaff[9].cook,
+       custmerOrder() {
+           console.log ( `${custmerOne.cookOne === "Արտակ Ադամյան" ?
+           "Այո, այսօր մեր խոհարարը Արտակ Ադամյանն է" :
+           "Ոչ, այսօր Արտակ Ադամյանը չի աշխատում" } ` );
+                     }
+                   };
+custmerOne.custmerOrder() ;
+
+
+
+//-----------4-------------------------------------------------
+
+const custmerTwo = {
+    order : "գարեջուր",
+    customerOrder () {
+       console.log(` Բարև Ձեզ, Ձեզ սպասարկում է ${app.restaurantStaff[2].waiter}ը 
+          ${custmerTwo.order === "գարեջուր" ?
+             `Ոչ կներեք մենք գարեջուր չունենք, կարող եք պատվիրել  ${app.restaurantMenu[2].item1},
+                    ${app.restaurantMenu[2].item2}, ${app.restaurantMenu[2].item3}, ${app.restaurantMenu[2].item4} ,
+                    ${app.restaurantMenu[2].item5}, ${app.restaurantMenu[2].item6} կամ ${app.restaurantMenu[2].item7}։`:
+             "Շատ լավ Ձեր պատվերն ընդունված է:" } `); }
+    };
+ custmerTwo.customerOrder();
